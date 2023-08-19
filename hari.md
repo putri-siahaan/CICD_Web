@@ -1,1 +1,2 @@
 hari senin
+aku kuliah
