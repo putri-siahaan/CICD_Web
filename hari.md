@@ -1,3 +1,4 @@
 hari senin
 aku kuliah
-kamu siapa
+aku manusia
+aku jijik sama kamu
