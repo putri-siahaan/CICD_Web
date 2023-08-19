@@ -1,2 +1,3 @@
 hari senin
-aku malas banget
+aku kuliah
+kamu siapa
