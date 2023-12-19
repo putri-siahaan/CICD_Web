@@ -1,14 +1,14 @@
-name: Capstone Group 2 - Penerapan CI/CD API User
+name: Capstone Group 2 - Penerapan CI/CD Website
 
 on:
   push:
     branches:
       - master
-      - Penerapan_CICD_API
+      - CICD_Website
   pull_request:
     branches:
       - master
-      - Penerapan_CICD_API
+      - CICD_Website
 
 jobs:
   build:
@@ -25,7 +25,7 @@ jobs:
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots clean install -DskipTests
   test:
-    name: TEST API USER - AUTOMATION
+    name: TEST WEBSITE - AUTOMATION
     needs: build
     runs-on: ubuntu-latest
     steps:
