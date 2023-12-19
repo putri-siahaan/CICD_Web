@@ -33,9 +33,6 @@ jobs:
       - name : Test Website
         run : mvn clean verify
       - name: Setup Chrome WebDriver
-        run: |
-          CHROMEDRIVER_VERSION=$(curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE)
-          curl -L "chromedriver.storage.googleapis.com/${CHROMEDRIVER_VERSION}/chromedriver_linux64.zip" -o chromedriver.zip
-          unzip chromedriver.zip -d ~/bin/
-          export PATH=$PATH:~/bin/
+        run:  mvn clean verify -Pchrome
+
 
