@@ -30,8 +30,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Test Website
-        run: mvn clean verify
+      - name : Test Website
+        run : mvn clean verify
       - name: Test on Chrome
         uses: nanasess/setup-chromedriver@v1
         with:
